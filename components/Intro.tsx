@@ -92,7 +92,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Jitesh.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span>. I enjoy
-        building <span className="italic">websites</span>. My focus is{" "}
+        building <span className="italic">websites</span>, my focus is{" "}
         <span className="underline">MERN & Next.js</span>.
       </motion.h1>
 
