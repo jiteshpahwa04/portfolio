@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { SiSpringboot } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
 import coinControlImg from "@/public/coinControl.png";
-import todoApplicationImg from "@/public/todoApplication.png";
-import sudokuSolverImg from "@/public/sudokuSolver.png";
+import proScrapeImg from "@/public/proscrape.png";
+import healthcareImg from "@/public/healthcare.png";
 
 export const links = [
   {
@@ -66,25 +66,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "ProScrape - Web Scraper",
+    description:
+      "Developed a Web Scraper using Next.js to monitor Amazon prices, ensuring real-time tracking and prompt notifications for price changes.",
+    tags: ["NextJs", "MongoDB", "Tailwind CSS", "Bright Data"],
+    imageUrl: proScrapeImg,
+    projectLink: "https://pro-scrape.vercel.app/"
+  },
+  {
+    title: "CarePulse - Healthcare App",
+    description:
+      "This is a NextJs project where patients can schedule appointments with doctors with admin panel.",
+    tags: ["NextJs", "Tailwind CSS", "Appwrite", "Sentry", "Shadcn"],
+    imageUrl: healthcareImg,
+    projectLink: "https://carepulse-healthcare.vercel.app/"
+  },
+  {
     title: "Coin Control",
     description:
       "Personal Finance Tracker. I was the full-stack developer. It has features like budgeting, tracking expenses and income, and setting financial goals.",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Express.js", "Redux"],
+    tags: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Express.js", "Redux"],
     imageUrl: coinControlImg,
-  },
-  {
-    title: "To-Do Application",
-    description:
-      "A simple to-do application. I was the full-stack developer. It has features like adding, deleting and updating tasks. We can also set priority levels.",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Express.js"],
-    imageUrl: todoApplicationImg,
-  },
-  {
-    title: "Sudoku Solver",
-    description:
-      "A sudoku solver. I was the front-end developer. It has features like solving a sudoku puzzle, checking if the puzzle is valid, and resetting the puzzle.",
-    tags: ["HTML", "CSS", "JavaScript", "Data Structures", "Algorithms"],
-    imageUrl: sudokuSolverImg,
+    projectLink: "https://github.com/jiteshpahwa04/myProjects/tree/main/coinControl"
   },
 ] as const;
 
